@@ -20,6 +20,7 @@ public class AppLauncher {
 		AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext(EmployeeConfig.class,
 				EmployeeBatchConfig.class);
 		System.out.println("**************************************************************************************");
+		System.out.println("Testing Jenkins");
 
 	}
 }
